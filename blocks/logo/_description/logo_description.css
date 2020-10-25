@@ -1,0 +1,12 @@
+.logo_description {
+  width: 202.79px;
+  height: 110px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .logo_description {
+    width: 120px;
+    height: 60px;
+  }
+}

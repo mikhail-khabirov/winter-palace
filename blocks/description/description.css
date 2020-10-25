@@ -1,0 +1,21 @@
+.description {
+  background-color: #F9F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 339px;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .description {
+    padding: 260px 25px 60px; 
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description {
+    flex-wrap: wrap;
+  }
+}

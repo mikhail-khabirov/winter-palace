@@ -1,0 +1,9 @@
+.address__block {
+  width: 255px;
+}
+
+@media screen and (max-width: 767px) {
+  .address__block {
+    margin-bottom: 30px;
+  }
+}

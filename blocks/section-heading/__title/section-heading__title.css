@@ -1,0 +1,15 @@
+.section-heading__title {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+  letter-spacing: 0.05em;
+  color: #222222;
+}
+
+@media screen and (max-width: 767px) {
+  .section-heading__title {
+    font-size: 28px;
+  }
+}

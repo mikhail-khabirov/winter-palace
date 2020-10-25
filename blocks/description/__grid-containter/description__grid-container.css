@@ -1,0 +1,13 @@
+.description__grid-container {
+  display: grid;
+  grid-template-columns: 255px 255px;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .description__grid-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}

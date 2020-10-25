@@ -1,0 +1,26 @@
+.header__grid-item-background {
+  height: 166px;
+  background-color: rgba(209, 169, 84, 0.9);
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1359px) {
+  .header__grid-item-background {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header__grid-item-background {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__grid-item-background {
+    height: 60px;
+  }
+}

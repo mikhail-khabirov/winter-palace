@@ -1,0 +1,13 @@
+.contacts__subtitle {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 135%;
+  color: #616161;
+  margin: 0 0 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts__subtitle {
+    margin-bottom: 30px;
+  }
+}

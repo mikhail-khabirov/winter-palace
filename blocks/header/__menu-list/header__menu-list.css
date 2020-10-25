@@ -1,0 +1,35 @@
+.header__menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 774px;
+  margin-left: 248px;
+}
+
+@media screen and (max-width: 1359px) {
+  .header__menu-list {
+    margin-left: 108px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header__menu-list {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__menu-list {
+    width: 523px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-list {
+    display: none;
+  }
+}

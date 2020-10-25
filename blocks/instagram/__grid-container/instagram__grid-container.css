@@ -1,0 +1,21 @@
+.instagram__grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+  width: 100%;
+  margin: 90px auto 0;
+  justify-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .instagram__grid-container {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .instagram__grid-container {
+    width: calc(100% - 2*15px);
+    grid-template-columns: 290px;
+  }
+}

@@ -1,0 +1,11 @@
+.download__title {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 52px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 1;
+  margin: 0 0 70px;
+  text-align: center;
+}

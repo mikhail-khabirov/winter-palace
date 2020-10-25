@@ -1,0 +1,18 @@
+.description__pic {
+  width: 40px;
+  height: 30px;
+}
+
+@media screen and (max-width: 1023px) { 
+  .description__pic {
+    width: 30px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description__pic {
+    width: 20px;
+    height: 10px;
+  }
+}

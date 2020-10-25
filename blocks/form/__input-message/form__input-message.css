@@ -1,0 +1,13 @@
+.form__input-message {
+  border: 1px solid #D0D0D0;
+  display: block;
+  margin-bottom: 35px;
+  padding: 15px 0 162px 20px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 135%;
+  color: #616161;
+  resize: none;
+  box-sizing: border-box;
+}

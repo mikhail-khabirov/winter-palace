@@ -1,0 +1,19 @@
+.header__grid-item-text {
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 400;
+  margin: 14px 0 22px;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__grid-item-text {
+    font-size: 12px;
+    margin: 10px 0 15px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__grid-item-text {
+    font-size: 9px;
+  }
+}

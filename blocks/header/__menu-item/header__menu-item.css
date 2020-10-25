@@ -1,0 +1,6 @@
+.header__menu-item:first-child {
+  text-transform: uppercase;
+  border: 1px solid #D1A954;
+  padding: 7px 9px;
+  box-sizing: border-box;
+}

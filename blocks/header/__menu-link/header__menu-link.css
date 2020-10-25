@@ -1,0 +1,14 @@
+.header__menu-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.24;
+  letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__menu-link {
+    font-size: 9px;
+  }
+}

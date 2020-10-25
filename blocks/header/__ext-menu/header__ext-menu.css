@@ -1,0 +1,11 @@
+.header__ext-menu {
+  width: 40px;
+  height: 20px;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__ext-menu {
+    display: inline-block;
+  }
+}

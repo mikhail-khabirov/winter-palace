@@ -1,0 +1,14 @@
+.download__button-container {
+  width: 665px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .download__button-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+}

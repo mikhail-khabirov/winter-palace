@@ -1,0 +1,12 @@
+.description__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.35;
+  margin: 20px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .description__text {
+    font-size: 12px;
+  }
+}

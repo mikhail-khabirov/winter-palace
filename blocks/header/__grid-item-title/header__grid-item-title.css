@@ -1,0 +1,25 @@
+.header__grid-item-title {
+  font-size: 30px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 21px 0 0;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1359px) {
+  .header__grid-item-title {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header__grid-item-title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__grid-item-title {
+    font-size: 18px;
+  }
+}
