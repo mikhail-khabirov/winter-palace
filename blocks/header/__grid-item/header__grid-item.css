@@ -5,6 +5,12 @@
   background-repeat: no-repeat;
   height: 650px;
   max-width: 580px;
+  transition: transform .5s ease;
+  border: none;
+}
+
+.header__grid-item:hover {
+  transform: scale(1.03);
 }
 
 @media screen and (max-width: 1599px) {
@@ -34,6 +40,7 @@
 @media screen and (max-width: 767px) {
   .header__grid-item {
     height: 300px;
-    max-width: 100%;
+    width: 320px;
+    justify-self: center;
   }
 }

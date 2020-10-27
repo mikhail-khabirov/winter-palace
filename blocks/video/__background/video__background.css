@@ -32,5 +32,6 @@
   .video__background {
     width: 320px; 
     height: 200px;
+    top: 225px;
   }
 }

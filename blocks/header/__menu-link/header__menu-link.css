@@ -5,6 +5,14 @@
   font-size: 13px;
   line-height: 1.24;
   letter-spacing: 0.05em;
+  
+  box-sizing: border-box;
+}
+
+.header__menu-link:hover {
+  transition: all .3s ease-in-out;
+  font-weight: 700;
+  color: #D1A954;
 }
 
 @media screen and (max-width: 1023px) {
